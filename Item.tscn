@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dfstjywu6j1wv"]
+
+[ext_resource type="Script" uid="uid://bhgq6ddlrh5ur" path="res://Item.gd" id="1_bp1wp"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_bp1wp"]
+size = Vector2(32, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bp1wp"]
+size = Vector2(32, 32)
+
+[node name="Item" type="Area2D" unique_id=1580514560]
+script = ExtResource("1_bp1wp")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2111422808]
+texture = SubResource("PlaceholderTexture2D_bp1wp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1259621860]
+shape = SubResource("RectangleShape2D_bp1wp")
