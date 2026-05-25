@@ -8,6 +8,7 @@
 script = ExtResource("1_r0du0")
 
 [node name="Player" parent="." unique_id=1155509160 instance=ExtResource("3_fos0i")]
+self_modulate = Color(0.76715714, 0.0004780346, 0.77245396, 1)
 
 [node name="Spawner" type="Node2D" parent="." unique_id=785099335]
 script = ExtResource("2_cm0pq")

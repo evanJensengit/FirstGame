@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://cjvqm1qwpcrio" path="res://Player.gd" id="1_xhfnw"]
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_xhfnw"]
+size = Vector2(100, 30)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xhfnw"]
 size = Vector2(100, 30)
@@ -13,8 +14,8 @@ script = ExtResource("1_xhfnw")
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=391987033]
+modulate = Color(1, 0.21176471, 1, 1)
 z_index = 5
-scale = Vector2(50, 50)
 texture = SubResource("PlaceholderTexture2D_xhfnw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1378334194]
